@@ -8,7 +8,8 @@
     "url": "git://github.com/aclarke211/passport-auth.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app/index.js"
   },
   "keywords": [
     "authentication",
@@ -26,6 +27,7 @@
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "mongoose": "^5.4.3",
+    "morgan": "^1.9.1",
     "nodemon": "^1.18.9",
     "path": "^0.12.7"
   }
