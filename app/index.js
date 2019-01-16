@@ -39,7 +39,7 @@ if (!isProduction) {
 }
 
 //Configure Mongoose
-mongoose.connect('mongodb://localhost/passport-auth');
+mongoose.connect('mongodb://localhost/passport-auth', { useNewUrlParser: true });
 mongoose.set('debug', true);
 
 //Error handlers & middlewares
